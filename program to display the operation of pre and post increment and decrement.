@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Display the operation of pre and post increment and decrement :\n";
+    std::cout << "--------------------------------------------------------------------\n";
+    
+    int number;
+    std::cin>>number;
+    std::cout << "The number is : " << number << "\n";
+    std::cout << "After post increment by 1 the number is : " << number++ << "\n";
+    std::cout << "After pre increment by 1 the number is : " << ++number << "\n";
+    std::cout << "After increasing by 1 the number is : " << number++ << "\n";
+    std::cout << "After post decrement by 1 the number is : " << number-- << "\n";
+    std::cout << "After pre decrement by 1 the number is : " << --number << "\n";
+    std::cout << "After decreasing by 1 the number is : " << number-- << "\n";
+
+    return 0;
+}
