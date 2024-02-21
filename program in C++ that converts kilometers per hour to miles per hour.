@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Convert kilometers per hour to miles per hour :\n";
+    std::cout << "----------------------------------------------------\n";
+
+    double kmPerHour;
+    std::cout << "Input the distance in kilometer : ";
+    std::cin >> kmPerHour;
+
+    double milesPerHour = kmPerHour * 0.621371;
+
+    std::cout << "The " << kmPerHour << " Km./hr. means " << milesPerHour << " Miles/hr.\n";
+
+    return 0;
+}
