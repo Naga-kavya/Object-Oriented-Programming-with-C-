@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Convert temperature in Celsius to Kelvin :\n";
+    std::cout << "---------------------------------------------------\n";
+
+    double celsius;
+    std::cout << "Input the temperature in Celsius : ";
+    std::cin >> celsius;
+
+    double kelvin = celsius + 273.15;
+
+    std::cout << "The temperature in Celsius : " << celsius << "\n";
+    std::cout << "The temperature in Kelvin : " << kelvin << "\n";
+
+    return 0;
+}
