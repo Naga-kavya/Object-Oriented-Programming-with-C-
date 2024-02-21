@@ -1,0 +1,20 @@
+#include <iostream>
+#include <limits>
+
+int main() {
+    std::cout << "Check overflow/underflow during various arithmetical operation :\n";
+    std::cout << "Range of int is [" << std::numeric_limits<int>::min() << ", " << std::numeric_limits<int>::max() << "]\n";
+    std::cout << "---------------------------------------------------------------------\n";
+    
+    int num = std::numeric_limits<int>::max();
+    std::cout << "Overflow the integer range and set in minimum range : " << num + 1 << "\n";
+    std::cout << "Increasing from its minimum range : " << num + 2 << "\n";
+    std::cout << "Product is : " << num * 1 << "\n";
+
+    num = std::numeric_limits<int>::min();
+    std::cout << "Underflow the range and set in maximum range : " << num - 1 << "\n";
+    std::cout << "Decreasing from its maximum range : " << num - 2 << "\n";
+    std::cout << "Product is : " << num * 0 << "\n";
+
+    return 0;
+}
