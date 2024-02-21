@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Find the Area and Perimeter of a Rectangle :\n";
+    std::cout << "-------------------------------------------------\n";
+
+    double length, width;
+    std::cout << "Input the length of the rectangle : ";
+    std::cin >> length;
+    std::cout << "Input the width of the rectangle : ";
+    std::cin >> width;
+
+    double area = length * width;
+    double perimeter = 2 * (length + width);
+
+    std::cout << "The area of the rectangle is : " << area << "\n";
+    std::cout << "The perimeter of the rectangle is : " << perimeter << "\n";
+
+    return 0;
+}
