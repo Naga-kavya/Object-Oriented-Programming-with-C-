@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Find the third angle of a triangle :\n";
+    std::cout << "-----------------------------------------\n";
+
+    int angle1, angle2;
+    std::cout << "Input the 1st angle of the triangle : ";
+    std::cin >> angle1;
+    std::cout << "Input the 2nd angle of the triangle : ";
+    std::cin >> angle2;
+
+    int angle3 = 180 - angle1 - angle2;
+
+    std::cout << "The 3rd angle of the triangle is : " << angle3 << "\n";
+
+    return 0;
+}
