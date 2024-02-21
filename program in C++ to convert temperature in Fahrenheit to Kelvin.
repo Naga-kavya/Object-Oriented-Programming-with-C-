@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Convert temperature in Fahrenheit to Kelvin :\n";
+    std::cout << "---------------------------------------------------\n";
+
+    double fahrenheit;
+    std::cout << "Input the temperature in Fahrenheit : ";
+    std::cin >> fahrenheit;
+
+    double kelvin = (fahrenheit + 459.67) * 5.0 / 9.0;
+
+    std::cout << "The temperature in Fahrenheit : " << fahrenheit << "\n";
+    std::cout << "The temperature in Kelvin : " << kelvin << "\n";
+
+    return 0;
+}
