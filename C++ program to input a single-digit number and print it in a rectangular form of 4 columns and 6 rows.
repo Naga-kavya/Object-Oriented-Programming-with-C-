@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int num;
+    
+    cout << "Make a rectangular shape by a single-digit number:" << endl;
+    cout << "--------------------------------------------------------" << endl;
+    cout << "Input the number: ";
+    cin >> num;
+
+    if (num >= 0 && num <= 9) {
+        for (int i = 1; i <= 6; ++i) {
+            for (int j = 1; j <= 4; ++j) {
+                if (j == 2 || j == 3) {
+                    cout << " ";
+                } else {
+                    cout << num;
+                }
+            }
+            cout << endl;
+        }
+    } else {
+        cout << "Please enter a single-digit number." << endl;
+    }
+
+    return 0;
+}
