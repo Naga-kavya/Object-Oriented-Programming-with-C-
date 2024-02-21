@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    std::cout << "Calculate the volume of a sphere :\n";
+    std::cout << "---------------------------------------\n";
+
+    double radius;
+    std::cout << "Input the radius of a sphere : ";
+    std::cin >> radius;
+
+    double volume = (4.0 / 3.0) * M_PI * std::pow(radius, 3);
+    std::cout << "The volume of a sphere is : " << volume << "\n";
+
+    return 0;
+}
