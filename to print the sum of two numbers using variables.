@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+    int num1 = 29, num2 = 30;
+    int sum = num1 + num2;
+
+    std::cout << "Print the sum of two numbers :\n";
+    std::cout << "-----------------------------------\n";
+    std::cout << "The sum of " << num1 << " and " << num2 << " is : " << sum << "\n";
+
+    return 0;
+}
