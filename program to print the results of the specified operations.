@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Print the result of some specific operation :\n";
+    std::cout << "--------------------------------------------------\n";
+
+    int result1 = 20 + 3 * 2 - 5 / 2;
+    int result2 = 2 * 5 - 3 % 2;
+    int result3 = 2 * (4 + 6 / 2);
+
+    std::cout << "Result of 1st expression is : " << result1 << "\n";
+    std::cout << "Result of 2nd expression is : " << result2 << "\n";
+    std::cout << "Result of 3rd expression is : " << result3 << "\n";
+
+    return 0;
+}
