@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Compute the total and average of four numbers :\n";
+    std::cout << "----------------------------------------------------\n";
+
+    int num1, num2, num3, num4;
+    std::cout << "Input 1st two numbers (separated by space) : ";
+    std::cin >> num1 >> num2;
+    std::cout << "Input last two numbers (separated by space) : ";
+    std::cin >> num3 >> num4;
+
+    int total = num1 + num2 + num3 + num4;
+    double average = static_cast<double>(total) / 4;
+
+    std::cout << "The total of four numbers is : " << total << "\n";
+    std::cout << "The average of four numbers is : " << average << "\n";
+
+    return 0;
+}
