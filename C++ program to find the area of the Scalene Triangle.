@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    std::cout << "Find the area of Scalene Triangle :\n";
+    std::cout << "----------------------------------------\n";
+
+    double side1, side2, angle;
+    std::cout << "Input the length of a side of the triangle : ";
+    std::cin >> side1;
+    std::cout << "Input the length of another side of the triangle : ";
+    std::cin >> side2;
+    std::cout << "Input the angle between these sides of the triangle : ";
+    std::cin >> angle;
+
+    double area = 0.5 * side1 * side2 * std::sin(angle * M_PI / 180);
+
+    std::cout << "The area of the Scalene Triangle is : " << area << "\n";
+
+    return 0;
+}
