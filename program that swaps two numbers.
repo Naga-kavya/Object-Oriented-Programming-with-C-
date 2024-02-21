@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Swap two numbers :\n";
+    std::cout << "-----------------------\n";
+
+    int num1, num2;
+    std::cout << "Input 1st number : ";
+    std::cin >> num1;
+    std::cout << "Input 2nd number : ";
+    std::cin >> num2;
+
+    std::cout << "After swapping the 1st number is : " << num2 << "\n";
+    std::cout << "After swapping the 2nd number is : " << num1 << "\n";
+
+    return 0;
+}
