@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Check whether primitive values crossing the limits or not :\n";
+    std::cout << "--------------------------------------------------------------------\n";
+    char gender = 'F';
+    bool isMarried = true;
+    int numSons = 2;
+    int appointmentYear = 2009;
+    long long salaryYear = 1500000;
+    double height = 79.48;
+    float gpa = 4.69;
+    long long salaryDrawn = 12047235;
+    long long balance = 995324987;
+
+    std::cout << "The Gender is : " << gender << "\n";
+    std::cout << "Is she married? : " << isMarried << "\n";
+    std::cout << "Number of sons she has : " << numSons << "\n";
+    std::cout << "Year of her appointment : " << appointmentYear << "\n";
+    std::cout << "Salary for a year : " << salaryYear << "\n";
+    std::cout << "Height is : " << height << "\n";
+    std::cout << "GPA is " << gpa << "\n";
+    std::cout << "Salary drawn upto : " << salaryDrawn << "\n";
+    std::cout << "Balance till : " << balance << "\n";
+
+    return 0;
+}
