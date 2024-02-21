@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Display arithmetic operations with mixed data type :\n";
+    std::cout << "---------------------------------------------------------\n";
+    int a = 5, b = 7;
+    float c = 3.7, d = 8.0;
+
+    std::cout << a << " + " << b << " = " << a + b << "\n";
+    std::cout << c << " + " << d << " = " << c + d << "\n";
+    std::cout << a << " + " << d << " = " << a + d << "\n";
+    std::cout << a << " - " << b << " = " << a - b << "\n";
+    std::cout << c << " - " << d << " = " << c - d << "\n";
+    std::cout << a << " - " << d << " = " << a - d << "\n";
+    std::cout << a << " * " << b << " = " << a * b << "\n";
+    std::cout << c << " * " << d << " = " << c * d << "\n";
+    std::cout << a << " * " << d << " = " << a * d << "\n";
+    std::cout << a << " / " << b << " = " << a / b << "\n";
+    std::cout << c << " / " << d << " = " << c / d << "\n";
+    std::cout << a << " / " << d << " = " << a / d << "\n";
+
+    return 0;
+}
