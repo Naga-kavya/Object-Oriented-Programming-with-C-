@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+
+int main() {
+    std::cout << "Calculate the volume of a cube :\n";
+    std::cout << "---------------------------------------\n";
+
+    double side;
+    std::cout << "Input the side of a cube : ";
+    std::cin >> side;
+
+    double volume = pow(side,3);
+    std::cout << "The volume of a cube is : " << volume << "\n";
+
+    return 0;
+}
